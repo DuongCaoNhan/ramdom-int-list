@@ -8,7 +8,7 @@ class Random {
             length = 1;
 
         if (length <= 1)
-            return new int[1] { 0 };
+            return new int[1] { start };
 
         int[] array = Enumerable.Range(start, length).ToArray();
 
